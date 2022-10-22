@@ -22,23 +22,21 @@ void loop() {
      Serial.println("DETECTADO");
      porta = true;
   }
-
-  bool valorPIR2 = digitalRead(pinPIR2);
-  if (valorPIR2) {
-     Serial.println("-------");
+  
+   bool valorPIR2 = digitalRead(pinPIR2);
+   if(valorPIR2 == true){
+      mesa = false;
+      if (valorPIR2) {
+         Serial.println("-------");
      
   } else {
      Serial.println("DETECTADO");
      mesa = true;
   }
-
-
-   if(valorPIR2 == true){
-      mesa == false;
    }
 
    if (valorPIR == true && mesa == false){
-      porta == false;
+      porta = false;
       Serial.println(porta);
    }
    
