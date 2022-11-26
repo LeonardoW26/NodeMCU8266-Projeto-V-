@@ -30,9 +30,10 @@ Lógica
 
 ![image](https://user-images.githubusercontent.com/110207338/204066950-e73c31c5-cb20-4dfa-9b45-08eaa8037133.png)
 
-IMAGEM DE TESTES
+GIF TESTE
 
+![picasion com_68050b53773860f8e14e1908998eb650](https://user-images.githubusercontent.com/110207338/204100305-12d1366f-43ee-4467-b226-5178aeb4d73d.gif)
 
+Descrição do teste:
 
-
-
+Caso passar na porta(Primeiro sensor) ele irá setar como true e vai passar para proxima funcção que é esperar passar na Mesa(Segundo sensor), proxima função é esperar a pessoa passar pegar o objeto da mesa, caso ele não pegar e passar pela porta o buzzer irá apitar e a luz acender por 5 segundos. caso contrario não acontece nada.
