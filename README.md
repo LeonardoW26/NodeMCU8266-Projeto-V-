@@ -1,2 +1,4 @@
-# NodeMCU8266-Projeto-V-
-PROJETO INFRA-VERMELHO
+PROJETO BBL.
+
+Projeto destinado a pessoas que acabam esquecendo algum item em qualquer local.
+
